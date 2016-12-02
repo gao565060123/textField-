@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D37E161DF1584B0005088D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D37E151DF1584B0005088D /* main.m */; };
+		F8D37E191DF1584B0005088D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D37E181DF1584B0005088D /* AppDelegate.m */; };
+		F8D37E1C1DF1584B0005088D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D37E1B1DF1584B0005088D /* ViewController.m */; };
+		F8D37E1F1DF1584B0005088D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D37E1D1DF1584B0005088D /* Main.storyboard */; };
+		F8D37E211DF1584B0005088D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D37E201DF1584B0005088D /* Assets.xcassets */; };
+		F8D37E241DF1584B0005088D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D37E221DF1584B0005088D /* LaunchScreen.storyboard */; };
+		F8D37E2F1DF1584B0005088D /* textField____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D37E2E1DF1584B0005088D /* textField____Tests.m */; };
+		F8D37E3A1DF1584B0005088D /* textField____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D37E391DF1584B0005088D /* textField____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D37E2B1DF1584B0005088D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D37E091DF1584B0005088D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D37E101DF1584B0005088D;
+			remoteInfo = "textField文字长度";
+		};
+		F8D37E361DF1584B0005088D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D37E091DF1584B0005088D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D37E101DF1584B0005088D;
+			remoteInfo = "textField文字长度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8D37E111DF1584B0005088D /* textField文字长度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "textField文字长度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D37E151DF1584B0005088D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D37E171DF1584B0005088D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8D37E181DF1584B0005088D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8D37E1A1DF1584B0005088D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8D37E1B1DF1584B0005088D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8D37E1E1DF1584B0005088D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D37E201DF1584B0005088D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D37E231DF1584B0005088D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8D37E251DF1584B0005088D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D37E2A1DF1584B0005088D /* textField文字长度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "textField文字长度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D37E2E1DF1584B0005088D /* textField____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "textField____Tests.m"; sourceTree = "<group>"; };
+		F8D37E301DF1584B0005088D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D37E351DF1584B0005088D /* textField文字长度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "textField文字长度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D37E391DF1584B0005088D /* textField____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "textField____UITests.m"; sourceTree = "<group>"; };
+		F8D37E3B1DF1584B0005088D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D37E0E1DF1584B0005088D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D37E271DF1584B0005088D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D37E321DF1584B0005088D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D37E081DF1584B0005088D = {
+			isa = PBXGroup;
+			children = (
+				F8D37E131DF1584B0005088D /* textField文字长度 */,
+				F8D37E2D1DF1584B0005088D /* textField文字长度Tests */,
+				F8D37E381DF1584B0005088D /* textField文字长度UITests */,
+				F8D37E121DF1584B0005088D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D37E121DF1584B0005088D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D37E111DF1584B0005088D /* textField文字长度.app */,
+				F8D37E2A1DF1584B0005088D /* textField文字长度Tests.xctest */,
+				F8D37E351DF1584B0005088D /* textField文字长度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D37E131DF1584B0005088D /* textField文字长度 */ = {
+			isa = PBXGroup;
+			children = (
+				F8D37E171DF1584B0005088D /* AppDelegate.h */,
+				F8D37E181DF1584B0005088D /* AppDelegate.m */,
+				F8D37E1A1DF1584B0005088D /* ViewController.h */,
+				F8D37E1B1DF1584B0005088D /* ViewController.m */,
+				F8D37E1D1DF1584B0005088D /* Main.storyboard */,
+				F8D37E201DF1584B0005088D /* Assets.xcassets */,
+				F8D37E221DF1584B0005088D /* LaunchScreen.storyboard */,
+				F8D37E251DF1584B0005088D /* Info.plist */,
+				F8D37E141DF1584B0005088D /* Supporting Files */,
+			);
+			path = "textField文字长度";
+			sourceTree = "<group>";
+		};
+		F8D37E141DF1584B0005088D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D37E151DF1584B0005088D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8D37E2D1DF1584B0005088D /* textField文字长度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D37E2E1DF1584B0005088D /* textField____Tests.m */,
+				F8D37E301DF1584B0005088D /* Info.plist */,
+			);
+			path = "textField文字长度Tests";
+			sourceTree = "<group>";
+		};
+		F8D37E381DF1584B0005088D /* textField文字长度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D37E391DF1584B0005088D /* textField____UITests.m */,
+				F8D37E3B1DF1584B0005088D /* Info.plist */,
+			);
+			path = "textField文字长度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D37E101DF1584B0005088D /* textField文字长度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D37E3E1DF1584B0005088D /* Build configuration list for PBXNativeTarget "textField文字长度" */;
+			buildPhases = (
+				F8D37E0D1DF1584B0005088D /* Sources */,
+				F8D37E0E1DF1584B0005088D /* Frameworks */,
+				F8D37E0F1DF1584B0005088D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "textField文字长度";
+			productName = "textField文字长度";
+			productReference = F8D37E111DF1584B0005088D /* textField文字长度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D37E291DF1584B0005088D /* textField文字长度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D37E411DF1584B0005088D /* Build configuration list for PBXNativeTarget "textField文字长度Tests" */;
+			buildPhases = (
+				F8D37E261DF1584B0005088D /* Sources */,
+				F8D37E271DF1584B0005088D /* Frameworks */,
+				F8D37E281DF1584B0005088D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D37E2C1DF1584B0005088D /* PBXTargetDependency */,
+			);
+			name = "textField文字长度Tests";
+			productName = "textField文字长度Tests";
+			productReference = F8D37E2A1DF1584B0005088D /* textField文字长度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8D37E341DF1584B0005088D /* textField文字长度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D37E441DF1584B0005088D /* Build configuration list for PBXNativeTarget "textField文字长度UITests" */;
+			buildPhases = (
+				F8D37E311DF1584B0005088D /* Sources */,
+				F8D37E321DF1584B0005088D /* Frameworks */,
+				F8D37E331DF1584B0005088D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D37E371DF1584B0005088D /* PBXTargetDependency */,
+			);
+			name = "textField文字长度UITests";
+			productName = "textField文字长度UITests";
+			productReference = F8D37E351DF1584B0005088D /* textField文字长度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D37E091DF1584B0005088D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "石塔Mr.GC";
+				TargetAttributes = {
+					F8D37E101DF1584B0005088D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F8D37E291DF1584B0005088D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8D37E101DF1584B0005088D;
+					};
+					F8D37E341DF1584B0005088D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8D37E101DF1584B0005088D;
+					};
+				};
+			};
+			buildConfigurationList = F8D37E0C1DF1584B0005088D /* Build configuration list for PBXProject "textField文字长度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D37E081DF1584B0005088D;
+			productRefGroup = F8D37E121DF1584B0005088D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D37E101DF1584B0005088D /* textField文字长度 */,
+				F8D37E291DF1584B0005088D /* textField文字长度Tests */,
+				F8D37E341DF1584B0005088D /* textField文字长度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D37E0F1DF1584B0005088D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D37E241DF1584B0005088D /* LaunchScreen.storyboard in Resources */,
+				F8D37E211DF1584B0005088D /* Assets.xcassets in Resources */,
+				F8D37E1F1DF1584B0005088D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D37E281DF1584B0005088D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D37E331DF1584B0005088D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D37E0D1DF1584B0005088D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D37E1C1DF1584B0005088D /* ViewController.m in Sources */,
+				F8D37E191DF1584B0005088D /* AppDelegate.m in Sources */,
+				F8D37E161DF1584B0005088D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D37E261DF1584B0005088D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D37E2F1DF1584B0005088D /* textField____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D37E311DF1584B0005088D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D37E3A1DF1584B0005088D /* textField____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D37E2C1DF1584B0005088D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D37E101DF1584B0005088D /* textField文字长度 */;
+			targetProxy = F8D37E2B1DF1584B0005088D /* PBXContainerItemProxy */;
+		};
+		F8D37E371DF1584B0005088D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D37E101DF1584B0005088D /* textField文字长度 */;
+			targetProxy = F8D37E361DF1584B0005088D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D37E1D1DF1584B0005088D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D37E1E1DF1584B0005088D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D37E221DF1584B0005088D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D37E231DF1584B0005088D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D37E3C1DF1584B0005088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8D37E3D1DF1584B0005088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D37E3F1DF1584B0005088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "textField文字长度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.star.textField----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8D37E401DF1584B0005088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "textField文字长度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.star.textField----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8D37E421DF1584B0005088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "textField文字长度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.star.textField----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textField文字长度.app/textField文字长度";
+			};
+			name = Debug;
+		};
+		F8D37E431DF1584B0005088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "textField文字长度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.star.textField----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textField文字长度.app/textField文字长度";
+			};
+			name = Release;
+		};
+		F8D37E451DF1584B0005088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "textField文字长度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.star.textField----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "textField文字长度";
+			};
+			name = Debug;
+		};
+		F8D37E461DF1584B0005088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "textField文字长度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.star.textField----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "textField文字长度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D37E0C1DF1584B0005088D /* Build configuration list for PBXProject "textField文字长度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D37E3C1DF1584B0005088D /* Debug */,
+				F8D37E3D1DF1584B0005088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D37E3E1DF1584B0005088D /* Build configuration list for PBXNativeTarget "textField文字长度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D37E3F1DF1584B0005088D /* Debug */,
+				F8D37E401DF1584B0005088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8D37E411DF1584B0005088D /* Build configuration list for PBXNativeTarget "textField文字长度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D37E421DF1584B0005088D /* Debug */,
+				F8D37E431DF1584B0005088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8D37E441DF1584B0005088D /* Build configuration list for PBXNativeTarget "textField文字长度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D37E451DF1584B0005088D /* Debug */,
+				F8D37E461DF1584B0005088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D37E091DF1584B0005088D /* Project object */;
+}
